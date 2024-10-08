@@ -1,0 +1,16 @@
+Both models are performing similarly, with Keras being marginally better in terms of both variance and maximum error. 
+Given the small differences in performance, you can confidently say that both implementations are achieving comparable results, 
+with either being a viable choice for this task. You might see slightly better results with Keras in this case, 
+but the differences are minor.
+
+Number of exact matches for Keras: 0
+Number of exact matches for PyTorch: 0
+Variance (MSE) for Keras: 0.0006311717030739975
+Variance (MSE) for PyTorch: 0.0007063021429808118
+Maximum difference for Keras: 0.19691468596089823
+Maximum difference for PyTorch: 0.2120001447163914
+
+Keras Model MAPE: 5.63%
+PyTorch Model MAPE: 6.89%
+Keras Model R-squared: 80.55%
+PyTorch Model R-squared: 78.23%
